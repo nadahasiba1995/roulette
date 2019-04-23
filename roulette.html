@@ -345,13 +345,7 @@ const wheelFactory = mountElem => {
 //     " in the path.";
 // }, false );
 
-$(document).on('click','g',function(){
-  $(this).addClass("animate");
-  $(this).one("webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend",
-              function(event) {
-    // Do something when the transition ends
-  });
-});
+
 
   function handleResize() {
     setViewBox(two.width, two.height);
@@ -569,6 +563,8 @@ window.addEventListener('resize', () => {
 });
 
 
+
+$("svg").attr("xmlns","http //www.w3.org/2000/svg");
 
   
 
